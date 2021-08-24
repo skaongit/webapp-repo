@@ -1,4 +1,4 @@
 # webapp-repo
 Repo repo repo
 
-when the repo is (not) sus
+when the repo is sus
