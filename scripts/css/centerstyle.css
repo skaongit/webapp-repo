@@ -30,3 +30,35 @@ a.nav:hover{
     font-family: verdana;
     text-decoration: none;
 }
+#page_wrapper{
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        border: 2px solid #e6f2ff;
+        padding: 10px;
+        height:80%;
+        width:97%;
+        background-color:rgb(102,102,102,0.1);|
+}
+
+p.p_content1{
+    font-size:12pt;
+    color: #000000
+    font-family: verdana;
+    background-color: rgb(230, 230, 230);
+    padding: 5px;
+    border-radius: 5px;
+    border: #2px solid #333333;
+
+}
+
+span.font1{
+    font-size: 20pt;
+    color: #000000;
+    font-family: verdana;
+}
+
+span.standout{
+
+
+}
