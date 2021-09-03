@@ -1,10 +1,12 @@
 body{
-    background-color:#e6f2ff;
     background-image: url('../../images/white.jpg');
     background-position: center;
     background-size: 2600px;
-    background-repeat:
+    background-repeat
+    background-blend-mode: 
 }
+
+
 
 ul.ulnav{
     border-radius: 5px;
@@ -12,7 +14,7 @@ ul.ulnav{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(235, 235, 235);
     }
     
     li.linav{
@@ -23,7 +25,7 @@ ul.ulnav{
         display: block;
         color: rgb(87, 87, 87);
         text-align: center;
-        padding: 15px 15px;
+        padding: 13px 13px;
         text-decoration: none;
         font-size: 23pt;
     }
@@ -32,43 +34,44 @@ ul.ulnav{
         display: block;
         color: color: rgb(0, 255, 235);
         text-align: center;
-        padding: 15px 15px;
+        padding: 13px 13px;
         text-decoration: none;
+        width: 145px;
+        transition: width 0.5s;
     }
     
     li.linav a:hover{
         background-color: rgb(246, 151, 151);
         font-size: 30pt;
-        padding: 8.8px 8.8px;
-    }
+        padding: 7px 13px;
+        width: 170px;
+        transition: width 0.5s;
+      }
 
     #page_wrapper{
         margin-left: auto;
         margin-right: auto;
         border-radius: 5px;
-        border: 2px solid #e6f2ff;
+        border: 3px solid #d3d3d3;
         padding: 10px;
-        height:80%;
+        height:86%;
         width:97%;
-        background-color:rgb(102,102,102,0.1);
+        background-color:rgb(117, 117, 117, 0.1);
 
     }
 
     p.p_content1{
         font-size:12pt;
-        color: #000000
+        color: #000000;
         font-family: verdana;
         background-color: rgb(230, 230, 230);
         padding: 5px;
         border-radius: 5px;
-        border: #2px solid #333333;
-
+        border: 2px solid #333333;
     }
 
     span.font1{
         font-size: 20pt;
         color: #000000;
         font-family: verdana;
-
-
     }
