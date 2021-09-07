@@ -6,6 +6,11 @@ body{
     background-blend-mode: 
 }
 
+body.dark {
+background-image: url('../../images/darkmode.jpg');
+ background-color: black;
+
+}
 
 
 ul.ulnav{
