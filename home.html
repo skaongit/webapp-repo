@@ -3,7 +3,23 @@
 <head>
     <title>Seal Zone - Home</title>
     <link rel="stylesheet" href="scripts/css/style.css">
-    <img src="images/seal2.png", width="85, height="85", align=left>
+    <img src="images/seal2.png", width="78, height="78", align=left>
+    <style> 
+        div {
+          width: 100px;
+          height: 100px;
+          background: rgb(0, 0, 0);
+          position: relative;
+          animation-name: example;
+          animation-duration: 1s;  
+          animation-fill-mode: forwards;
+        }
+        
+        @keyframes example {
+          from {top: -3%;}
+          to {top: -1%; background-color: rgb(235, 235, 235);}
+        }
+        </style>
 </head>
 <body>
     <ul class="ulnav">
@@ -14,6 +30,11 @@
         <li class="linav"><a href=index.html class="active">Search</a></li></ul>
         <br><br>
         <div id="page_wrapper">
+            <center><span id="title">Seal Zone</span>
+              <br><br>
+            <span id="subtitle">We are all about fatseals, an exotic creature. Unrelated, check out the other pages on website to learn more about me!</span>
+            <br><br><br><br>
+            <img src="images/landscape.jpg" height="70%" id="image1">
     </div>
     </body>
 </html>

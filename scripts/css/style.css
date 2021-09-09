@@ -5,27 +5,85 @@ body{
     background-repeat
     background-blend-mode: 
 }
-
 body.dark {
 background-image: url('../../images/darkmode.jpg');
  background-color: black;
-
 }
-
-
-ul.ulnav{
+#page_wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 3px solid #d3d3d3;
+    padding: 10px;
+    height:800;
+    width:97%;
+    background-color:rgb(117, 117, 117, 0.1);
+}
+#page_longer{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 3px solid #d3d3d3;
+    padding: 10px;
+    height:900;
+    width:97%;
+    background-color:rgb(117, 117, 117, 0.1);
+}
+#page_percent{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    border: 3px solid #d3d3d3;
+    padding: 10px;
+    height:86%;
+    width:97%;
+    background-color:rgb(117, 117, 117, 0.1);
+}
+p.p_content1{
+    font-size:12pt;
+    color: #000000;
+    font-family: verdana;
+    background-color: rgb(230, 230, 230);
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #333333;
+}
+#title {
+    font-size: 30pt;
+    color:rgb(51, 51, 51)
+    font-family: verdana;
+}
+#subtitle {
+    font-size: 20pt;
+    color:rgb(51, 51, 51)
+    font-family: verdana;
+}
+#text1 {
+    font-size: 15pt;
+    color:rgb(51, 51, 51)
+    font-family: verdana;
+}
+#text2 {
+    font-size: 22pt;
+    color:rgb(51, 51, 51)
+    font-family: verdana;
+    font-weight: bold;
+}
+#image1 {
+    border-radius: 10px;
+  }
+  ul.ulnav{
     border-radius: 5px;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(235, 235, 235);
-    }
-    
+    }   
     li.linav{
         float: left;
-    }
-    
+        
+    }   
     li.linav a{
         display: block;
         color: rgb(87, 87, 87);
@@ -33,8 +91,8 @@ ul.ulnav{
         padding: 13px 13px;
         text-decoration: none;
         font-size: 23pt;
-    }
-    
+        
+    }   
     li.linav a.active{
         display: block;
         color: color: rgb(0, 255, 235);
@@ -43,40 +101,34 @@ ul.ulnav{
         text-decoration: none;
         width: 145px;
         transition: width 0.5s;
-    }
-    
+    }  
     li.linav a:hover{
         background-color: rgb(246, 151, 151);
         font-size: 30pt;
         padding: 7px 13px;
         width: 170px;
         transition: width 0.5s;
+        border-radius: 7px;
       }
-
-    #page_wrapper{
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 5px;
-        border: 3px solid #d3d3d3;
-        padding: 10px;
-        height:86%;
-        width:97%;
-        background-color:rgb(117, 117, 117, 0.1);
-
+      li.senav{
+        float: left;
+        display: block;
+        border-radius: 10px;
+        
     }
-
-    p.p_content1{
-        font-size:12pt;
-        color: #000000;
-        font-family: verdana;
-        background-color: rgb(230, 230, 230);
-        padding: 5px;
-        border-radius: 5px;
-        border: 2px solid #333333;
+    li.senav a{
+        display: block;
+        color: rgb(87, 87, 87);
+        text-align: left;
+        padding: 1px 10px;
+        text-decoration: none;
+        font-size: 18pt;
+        border-radius: 7px;
     }
-
-    span.font1{
-        font-size: 20pt;
-        color: #000000;
-        font-family: verdana;
-    }
+    li.senav a:hover{
+        background-color: rgb(246, 151, 151);
+        font-size: 16pt;
+        padding: 1px 15px;
+        width: 80x;
+        transition: width 0.5s;
+        border-radius: 7px;

@@ -3,7 +3,24 @@
 <head>
     <title>Seal Zone - Projects</title>
     <link rel="stylesheet" href="scripts/css/style.css">
-    <img src="images/seal2.png", width="85, height="85", align=left>
+    <img src="images/seal2.png", width="78, height="78", align=left>
+
+    <style> 
+      div {
+        width: 100px;
+        height: 100px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        animation-name: example;
+        animation-duration: 1s;  
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes example {
+        from {top: -3%;}
+        to {top: -1%; background-color: rgb(235, 235, 235);}
+      }
+      </style>
 
 </head>
 
@@ -15,26 +32,13 @@
         <li class="linav"><a href=skills.html class="active">Skills</a></li>
         <li class="linav"><a href=index.html class="active">Search</a></li></ul>
         <br><br>
-        <div id="page_wrapper">
-        <center><h1 style="background-color:whitesmoke;"">Projects</h1>
-        </div>
-
-        <style> 
-            div {
-              width: 100px;
-              height: 100px;
-              background: rgb(0, 0, 0);
-              position: relative;
-              animation-name: example;
-              animation-duration: 1s;  
-              animation-fill-mode: forwards;
-            }
-            
-            @keyframes example {
-              from {top: -3%;}
-              to {top: 0%; background-color: rgb(235, 235, 235);}
-            }
-            </style>
-
+              <div id="page_wrapper">
+                <center><img src="images/projects.png"id="image1">
+                <h1 style="background-color:whitesmoke;"">This Website</h1>
+                    <P id="subtitle">This place was created in a few weeks. It may have branding for the almighty Fatseal, but it is a place for others to know more about me and the things I have created!</P>
+                  <h1 style="background-color:whitesmoke;"">Seal Search</h1>
+                    <P id="subtitle">The last tab of this page. It has clickable links to everything else that I have done. This includes experimental pages.</P>
+                  <h1 style="background-color:whitesmoke;"">Upcoming Projects</h1>
+                    <P id="subtitle">I will soon be developing game design, mainly in Unity. When the time comes, they will be listed.</P></center>
     </body>
         </html>

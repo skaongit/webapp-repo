@@ -1,68 +1,76 @@
 <html>
 	<head>
 		<title>Seal Search</title>
-	
-    <link rel="stylesheet" href="scripts/css/style.css">
-    <img src="images/seal2.png", width="85, height="85", align=left>
-    <ul class="ulnav">
-        <li class="linav"><a href=home.html class="active">Home</a></li>
-        <li class="linav"><a href=about.html class="active">About</a></li>
-        <li class="linav"><a href=projects.html class="active">Projects</a></li>
-        <li class="linav"><a href=skills.html class="active">Skills</a></li>
-        <li class="linav"><a href=index.html class="active">|Search|</a></li></ul>
-    </div>
+   			 <link rel="stylesheet" href="scripts/css/style.css">
+  		 	 <img src="images/seal2.png", width="78, height="78", align=left>
+
+				<style> 
+					div {
+					  width: 100px;
+					  height: 100px;
+					  background: rgb(0, 0, 0);
+					  position: relative;
+					  animation-name: example;
+					  animation-duration: 1s;  
+					  animation-fill-mode: forwards;
+					}
+					
+					@keyframes example {
+					  from {top: -3%;}
+					  to {top: -1%; background-color: rgb(235, 235, 235);}
+					}
+					</style>
 	</head>
 		<body>
+			<ul class="ulnav">
+        		<li class="linav"><a href=home.html class="active">Home</a></li>
+        		<li class="linav"><a href=about.html class="active">About</a></li>
+       			 <li class="linav"><a href=projects.html class="active">Projects</a></li>
+       		 	<li class="linav"><a href=skills.html class="active">Skills</a></li>
+       			 <li class="linav"><a href=index.html class="active">|Search|</a></li></ul>
 	<br><br>
-		<center> <img src="images/fatseal.jpg", width="700", height="390"> </center>
-		<h1 align=center style="background-color:whitesmoke;">Seal Search</h1>
+	<div id="page_wrapper">
+		<center> <img src="images/fatseal.jpg", width="700", height="390"> 
+		<h1 style="background-color:whitesmoke;">Seal Search</h1></center>
 	<br>
         <center>
 			<table>
             <tr>
                 <td>
-                    <img src="images/user.png" width=30px>
-                    </td>
-                <td><div id="page_wrapper">
-					<span class="subtitle">Coding Websites</span><br>
-                    <a href="sites/seal.html" class="nav">Fatseal Zone</a>&nbsp;  &nbsp;
-                    <a href="sites/table.html" class="nav">Pizza Table</a>&nbsp;  &nbsp;
-                    <a href="sites/lists.html" class="nav"> Lists</a>&nbsp;  &nbsp;
-                    <a href="sites/rickroll.html" class="nav">Rickroll</a>&nbsp; &nbsp;
-                    </div>
-                </td>
+					<div id="page_percent">
+					<center><span id="text1">Coding Websites</span><br></center>
+                    <li class="senav"><a href="sites/seal.html" class="nav">Fatseal Zone</a></li>&nbsp;  &nbsp;
+                    <li class="senav"><a href="sites/table.html" class="nav">Pizza Table</a></li>&nbsp;  &nbsp;
+                    <li class="senav"><a href="sites/lists.html" class="nav"> Lists</a></li>&nbsp;  &nbsp;
+                    <li class="senav"><a href="sites/rickroll.html" class="nav">Rickroll</a>&nbsp; &nbsp;
+					</div>
+				</td>
             </tr>
-				<table>
-				<tr>
-					<td>
-						<img src="images/user.png" width=30px>
-						</td>
-					<td><div id="page_wrapper">
-						<span class="subtitle">The Interwebs</span><br>
-						<a href="https://sites.google.com/mydacc.org/student-resources/home" class="nav" target="_blank">DACC</a>&nbsp;  &nbsp;
-						<a href="https://www.google.com" class="nav">Google</a>&nbsp;  &nbsp;
-						<a href="https://www.classroom.google.com" class="nav">Classroom</a>&nbsp;  &nbsp;
-						<a href="https://www.gmail.com" class="nav">Gmail</a>&nbsp; &nbsp;
-						<a href="https://outlook.live.com/mail/0/inbox" class="nav">Outlook</a>&nbsp;  &nbsp;
-						</div>
-					</td>
-				</tr>
-
-				<table>
-					<tr>
-						<td>
-							<img src="images/user.png" width=30px>
-							</td>
-						<td><div id="page_wrapper">
-							<span class="subtitle">Other Things</span><br>
-							<a href="games/game.html" class="nav" target="_blank">Google Pacman</a>&nbsp;  &nbsp;
-							<a href="games/game2.html" class="nav" >Snake</a>&nbsp;  &nbsp;
-							<a href="sites/404.html" class="nav">404</a>&nbsp;  &nbsp;
-							<a href="legacy/titlebar.html" class="nav">Titlebar</a>&nbsp;  &nbsp;
-							<a href="legacy/centernav.html" class="nav">Center Nav</a>&nbsp;  &nbsp;
-							<a href="legacy/oldindex.html" class="nav">Old Seal Search</a>&nbsp; &nbsp;
-							</div>
-						</td>
-					</tr>
+			<table>
+				<td>
+					<div id="page_percent">
+					<center><span id="text1">The Interwebs</span><br></center>
+					<li class="senav"><a href="https://sites.google.com/mydacc.org/student-resources/home" class="nav" target="_blank">DACC</a>&nbsp;  &nbsp;
+					<li class="senav"><a href="https://www.google.com" class="nav">Google</a></li>&nbsp;  &nbsp;
+					<li class="senav"><a href="https://www.classroom.google.com" class="nav">Classroom</a></li>&nbsp;  &nbsp;
+					<li class="senav"><a href="https://www.gmail.com" class="nav">Gmail</a></li>&nbsp; &nbsp;
+					<li class="senav"><a href="https://outlook.live.com/mail/0/inbox" class="nav">Outlook</a></li>&nbsp;  &nbsp;
+					</div>
+				</td>
+			</tr>
+			<table>
+				<td>
+					<div id="page_percent">
+					<center><span id="text1">Other Things</span><br></center>
+					<li class="senav"><a href="games/game.html" class="nav" target="_blank">Google Pacman</a></li>&nbsp;  &nbsp;
+					<li class="senav"><a href="games/game2.html" class="nav" target="_blank">Snake</a></li>&nbsp;  &nbsp;
+					<li class="senav"><a href="sites/404.html" class="nav">404</a></li>&nbsp;  &nbsp;
+					<li class="senav"><a href="legacy/titlebar.html" class="nav">Titlebar</a></li>&nbsp;  &nbsp;
+					<li class="senav"><a href="legacy/centernav.html" class="nav">Center Nav</a></li>&nbsp;  &nbsp;
+					<li class="senav"><a href="legacy/oldindex.html" class="nav">Old Seal Search</a></li>&nbsp; &nbsp;
+					</div>
+				</td>
+			</tr>
 			</body>
+		</div>
 </html>

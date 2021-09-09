@@ -3,7 +3,24 @@
 <head>
     <title>Seal Zone - Skills</title>
     <link rel="stylesheet" href="scripts/css/style.css">
-    <img src="images/seal2.png", width="85, height="85", align=left>
+    <img src="images/seal2.png", width="78, height="78", align=left>
+
+    <style> 
+      div {
+        width: 100px;
+        height: 100px;
+        background: rgb(0, 0, 0);
+        position: relative;
+        animation-name: example;
+        animation-duration: 1s;  
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes example {
+        from {top: -3%;}
+        to {top: -1%; background-color: rgb(235, 235, 235);}
+      }
+      </style>
 </head>
 
 <body>
@@ -14,27 +31,25 @@
         <li class="linav"><a href=skills.html class="active">|Skills|</a></li>
         <li class="linav"><a href=index.html class="active">Search</a></li></ul>
         <br><br>
-        <div id="page_wrapper">
-        <center><h1 style="background-color:whitesmoke;"">Skills</h1>
-        <P>Coding websites in HTML and CSS</P>
         </div>
-
-        <style> 
-            div {
-              width: 100px;
-              height: 100px;
-              background: rgb(0, 0, 0);
-              position: relative;
-              animation-name: example;
-              animation-duration: 1s;  
-              animation-fill-mode: forwards;
-            }
-            
-            @keyframes example {
-              from {top: -3%;}
-              to {top: 0%; background-color: rgb(235, 235, 235);
-            }
-            </style>
+            <div id="page_longer">
+            <center><img src="images/skills.png" height="40%" id="image1">
+              <h1 style="background-color:whitesmoke;">Skills</h1></center>
+                <ul id="subtitle">
+                  <span id="text2">Coding Websites</span>
+                    <br><br>
+                        <li>HTML - The beginnings of many programmers. I started off learning this not too long ago and it's given me a great foundation</li>
+                    <br>
+                        <li>CSS - To extend the visual appeal, I implemented this into the mix</li>
+                    <br>
+                  <span id="text2">Future Programming</span>
+                    <br><br>
+                        <li>JavaScript - I will be learning this soon to make more dynamic websites</li>
+                    <br>
+                        <li>C# - I will also be learning this in the future. This will be able to cover local apps</li>
+                    <br>
+                        <li>Unity - During the second semester, I will be learning how to Game Design in Unity</li>
+        </ul>
 
     </body>
 </html>
